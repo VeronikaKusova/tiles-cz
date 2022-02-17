@@ -9,7 +9,7 @@ Pro správné fungování dlaždicových služeb je třeba předem ustanovit
 
 ### Souřadnicový systém Web Mercator EPSG:3857
 
-Jedná se o globální souřadnicový systém a v současnosti se jedná o de-facato
+Jedná se o globální souřadnicový systém a v současnosti se jedná o de-facto
 technologický standard pro publikaci mapových děl v prostředí WWW. Jeho podoba
 byla původně kodifikována firmou Google a převzata konsorciem OGC.
 
@@ -17,7 +17,7 @@ Země je reprezentovaná pomocí projekce Mercator ([EPSG:3857](https://epsg.io/
 
 Měřítková řada a její charakteristiky:
 
-| Úroveň přiblížení | Rozlišní [m/px] | Měřítko mapy (při 96 dpi) | Šířka a výška mapy (px) |
+| Úroveň přiblížení | Rozlišení [m/px] | Měřítko mapy (při 96 dpi) | Šířka a výška mapy (px) |
 | ----------------- | --------------- | ------------------------- | ----------------------- |
 | 0                 | 156 543.0339    | 1 : 591 658 710.90        | 256                     |
 | 1                 | 78 271.51696    | 1 : 295 829 355.45        | 512                     |

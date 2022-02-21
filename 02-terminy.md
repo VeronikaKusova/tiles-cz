@@ -28,7 +28,7 @@
 
   Definice pro konkrétní měřítko. Matice je definována:
 
-  1. Měřítkem (při rozlišení pixelu 28×28 mm)
+  1. Měřítkem (při rozlišení pixelu 0.28 × 0.28 mm)
   2. Šířkou a výškou v pixelech
   3. Souřadnice levého-horního rohu
   4. Počet dlaždic ve směru os x a y

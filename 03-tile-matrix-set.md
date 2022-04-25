@@ -135,3 +135,4 @@ Měřítková řada a její charakteristiky:
 https://www.natur.cuni.cz/geografie/geoinformatika-kartografie/ke-stazeni/vyuka/seminar-z-geoinformatiky/literatura/kartografie/
 
 co zvolit nad  1mil a pod 10 000
+https://www.zakonyprolidi.cz/cs/2006-430

@@ -137,3 +137,4 @@ https://www.natur.cuni.cz/geografie/geoinformatika-kartografie/ke-stazeni/vyuka/
 co zvolit nad  1mil a pod 10 000
 https://www.zakonyprolidi.cz/cs/2006-430
 https://www.zakonyprolidi.cz/cs/2020-393
+https://cuzk.cz/O-resortu/Nemoforum/Akce-Nemofora/Seminare/Jednotne-digitalni-technicke-mapy.aspx

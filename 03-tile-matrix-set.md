@@ -4,7 +4,7 @@ Pro správné fungování dlaždicových služeb je třeba předem ustanovit
 
 1. Počátek celého systému (souřadnice levého-horního rohu v daném
    souřadnicovém systému)
-2. Velikost dlaždice (obvykle 256 nebo 512px)
+2. Velikost dlaždice (preferovaná varianta 512px nebo akceptovatelná 256px)
 3. Řadu měřítek, ve kterých budou definovány jednotlivé matice
 
 ### Souřadnicový systém Web Mercator EPSG:3857
@@ -86,55 +86,6 @@ Měřítková řada a její charakteristiky:
 | 19                | 0.003937744140625 | 1 : 13.95263671875        | 134 217 728             |
 
 
-### Souřadnicový systém S-JTSK EPSG:5514 - dekadická měřítková sada
+### Rozlišení pro tisk
 
-Jedná se o lokální souřadnicový systém používaný na území České a Slovenské
-republiky, přičemž v tomto dokumentu se zabýváme pouze územím České republiky.
-
-Oblast pokrytí je 12.09, 48.58, 18.86, 51.06 v souřadnicích WGS84 nebo
--935747.74, -1183037.28, -418641.09, -969106.24 v souřadnicích EPSG:5514.
-
-Pro účely sady dlaždic stanovujeme počátek (levý-horní roh) systému do bodu
-
-x: -925000, y: -920000
-
-Měřítková řada je odvozena podle dekadického měřítkového principu - jednotlivé
-úrovně na sebe nijak nenavazují a celý systém je podřízen přirozeným měřítkům
-používaným v tištěných mapách.
-
-Měřítková řada a její charakteristiky:
-
-**TODO** Tohle musíme dospecifikovat
-
-| Úroveň přiblížení | Rozlišní [m/px]   | Měřítko mapy (při 96 dpi) | Šířka a výška mapy (px) |
-| ----------------- | ----------------- | ------------------------- | ----------------------- |
-| 0                 |                   | 1 : 10 000 000            |                         |
-| 1                 |                   | 1 : 5 000 000             |                         |
-| 2                 |                   | 1 : 2 500 000             |                         |
-| 3                 |                   | 1 : 1 000 000             |                         |
-| 4                 |                   | 1 : 500 000               |                         |
-| 5                 |                   | 1 : 200 000               |                         |
-| 6                 |                   | 1 : 100 000               |                         |
-| 7                 |                   | 1 : 50 000                |                         |
-| 8                 |                   | 1 : 25 000                |                         |
-| 9                 |                   | 1 : 10 000                |                         |
-| 10                |                   | 1 : 5 000                 |                         |
-| 11                |                   | 1 : 2 000                 |                         |
-| 12                |                   | 1 : 1 000                 |                         |
-| 13                |                   | 1 : 500                   |                         |
-| 14                |                   | 1 : 200                   |                         |
-| 15                |                   | 1 : 100                   |                         |
-| 16                |                   | 1 : 50                    |                         |
-| 17                |                   | 1 : 20                    |                         |
-| 18                |                   | 1 : 10                    |                         |
-| 19                |                   | 1 : 5                     |                         |
-| 20                |                   | 1 : 2                     |                         |
-| 21                |                   | 1 : 1                     |                         |
-
-2880 ?
-https://www.natur.cuni.cz/geografie/geoinformatika-kartografie/ke-stazeni/vyuka/seminar-z-geoinformatiky/literatura/kartografie/
-
-co zvolit nad  1mil a pod 10 000
-https://www.zakonyprolidi.cz/cs/2006-430
-https://www.zakonyprolidi.cz/cs/2020-393
-https://cuzk.cz/O-resortu/Nemoforum/Akce-Nemofora/Seminare/Jednotne-digitalni-technicke-mapy.aspx
+Všechny měřítkové řady musí podporovat větší rozlišení pro tisk (např. 300dpi). To lze zajistit generováním dlaždic za běhu nebo předgenerováním větších dlaždic.

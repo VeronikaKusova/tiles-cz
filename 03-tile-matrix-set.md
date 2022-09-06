@@ -88,4 +88,6 @@ Měřítková řada a její charakteristiky:
 
 ### Rozlišení pro tisk
 
+*TODO* Dospecifikovat tiskovou HiDPI službu a její rozlišení.
+
 Všechny měřítkové řady musí podporovat větší rozlišení pro tisk (např. 300dpi). To lze zajistit generováním dlaždic za běhu nebo předgenerováním větších dlaždic.

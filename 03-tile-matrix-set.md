@@ -89,7 +89,7 @@ Měřítková řada a její charakteristiky:
 ### Rozlišení pro tisk
 
 
-Všechny měřítkové řady pro tisk musí podporovat rozlišení 300 dpi. To lze zajistit generováním dlaždic za běhu nebo předgenerováním větších dlaždic. Velikost dlaždice by měla být 512 px.
+Všechny měřítkové řady pro tisk musí podporovat rozlišení 300 dpi. To lze zajistit generováním dlaždic za běhu nebo předgenerováním větších dlaždic. Doporučená velikost dlaždice je 512 px.
 
 Měřítková řada a její charakteristiky:
 

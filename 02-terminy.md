@@ -1,3 +1,4 @@
+
 ## Termíny a definice
 
 * **Webové mapové služby**

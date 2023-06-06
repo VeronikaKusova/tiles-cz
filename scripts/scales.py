@@ -20,7 +20,7 @@ except ModuleNotFoundError as e:
 import json
 import math
 
-dpi = 90
+dpi = 90.7
 maxscaledenom = 7315200
 
 top = -920000
